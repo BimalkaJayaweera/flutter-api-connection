@@ -1,16 +1,21 @@
-# api
+Make a connection with rest api
 
-A new Flutter project.
+Tested with
+  1. physical device (connected)
+  2. chrome (not connected)
+  
+Use for testing perpose only because certification validation turned off
 
-## Getting Started
+Guid
+  make sure all the devices are connected to internet
 
-This project is a starting point for a Flutter application.
+  add INTERNET permission to your AndroidManifest.xml file, you can follow these steps: 
+    Open your Flutter project in Android Studio.
 
-A few resources to get you started if this is your first Flutter project:
+    In the project tree, navigate to the android folder, expand it, and then locate the AndroidManifest.xml file.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    Double-click the AndroidManifest.xml file to open it in the editor.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Add the following line inside the manifest tag to request permission to access the internet:
+
+    Save the file.
